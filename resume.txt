@@ -1,0 +1,35 @@
+Bishal Thapa
+btbishal09@gmail.com | thapa.153@wright.edu | https://github.com/bishalth28
+| Dayton, Ohio (Open to Relocate) | 937-251-8718 | 
+EDUCATION:
+  	Bachelor’s in computer science
+Wright State University, Ohio, USA
+Relevant Courses: Python Programming, Calculus, Java, Business Analyst, Operating System, Statistics for Engineers
+PROJECT:
+	Diamond Price Predictor — End-to-End ML Pipeline | Github Repo
+▪	Achieved 92% R² accuracy by training and auto selecting the best model across 5 regression algorithms using a modular ingestion → transformation → training pipeline.
+▪	Reduced manual feature-engineering effort by 70% by automating preprocessing with ordinal encoding, StandardScaler, and median imputation in a custom scikit-learn pipeline.
+▪	Delivered real-time predictions to end users by deploying the winning model as a Flask REST API supporting both single-record and batch CSV prediction via web UI.
+Code Helper — Multi-Agent AI System | Github Repo
+▪	Accelerated developer workflows by routing bug-fix and code-generation requests to specialist AI agents, cutting resolution steps by eliminating manual model switching across 3 separate tools.
+▪	Architected a 3-agent orchestration system using Google ADK with an A2A HTTP protocol, building 13 custom MCP tools across Bug Finder and Code Writer specialist agents.
+▪	Enabled model-agnostic execution by integrating LiteLLM with OpenRouter, allowing seamless switching between LLM providers without code changes.
+Blog REST API — Production-Grade Backend | Github Repo
+▪	Secured all user data by implementing PBKDF2-SHA256 password hashing and JWT-based authentication, enforcing ownership checks on every CRUD operation.
+▪	Improved developer onboarding time by auto-generating OpenAPI 3.0 / Swagger UI documentation, reducing integration questions for consumers of the API.
+▪	Ensured zero-friction deployment by containerizing the full stack with Docker Compose and managing schema evolution through Flask-Migrate and Alembic migrations.
+LEADERSHIP AND VOLUNTEER EXPERIENCE:
+Technology & Events Volunteer 
+▪	Improved event quality for 100+ attendees by coordinating technical setup, managing shared task boards, and directing a 5-volunteer team across cultural programming events.
+▪	Strengthened new-student retention by designing and facilitating welcome sessions and peer mentorship programs, receiving positive feedback from university coordinators.
+
+SOFTWARE & TECHNICAL SKILLS
+AI / ML:  Python, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Regression, Classification, Feature Engineering, MLflow
+AI Agents & LLMs:  Google ADK, MCP Protocol, A2A HTTP, Multi-Agent Systems, Prompt Engineering
+Backend & APIs:  Flask, FastAPI, REST APIs, JWT Auth, SQLAlchemy, Marshmallow, SQLite
+DevOps & Tools:  Docker, Docker Compose, Git, GitHub, Linux, VS Code,
+CERTIFICATIONS AND AWARDS
+•	Business Analytics with excel.
+•	OASIS Rapid Certification
+•	AI Fluency: Framework & Foundations	
+	
