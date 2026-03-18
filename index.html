@@ -1452,11 +1452,6 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
 <script>
-
-const p1 = 'sk-or-v1-';
-const p2 = '60f3ff0a345899e24bdd519aae6574177d2704a77a25064777283747244f0b78';
-const OPENROUTER_API_KEY = p1 + p2;
-
 const name = "Bishal Thapa"
 
 let SYSTEM_PROMPT = ""
@@ -1561,14 +1556,11 @@ async function sendMessage() {
   showTyping();
 
   try {
-    const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
-        'Content-Type': 'application/json',
-        'HTTP-Referer': window.location.href,
-        'X-Title': 'Portfolio Chatbot'
-      },
+    const res = await fetch('https://openrouter-proxy.bipanathapa068.workers.dev', {
+     method: 'POST',
+     headers: {
+       'Content-Type': 'application/json',
+     },
       body: JSON.stringify({
         model: 'stepfun/step-3.5-flash:free',
         messages: [
